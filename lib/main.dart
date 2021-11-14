@@ -1,5 +1,3 @@
-import 'package:awesome_notifications/awesome_notifications.dart';
-import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:chat_app_prac/screens/auth_screen.dart';
 import 'package:chat_app_prac/screens/chat_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
