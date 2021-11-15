@@ -27,7 +27,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  # awesome_notifications: 
+  awesome_notifications: 
   cloud_firestore: ^3.1.0
   cupertino_icons: ^1.0.2
   firebase_auth: ^3.2.0
@@ -36,28 +36,26 @@ dependencies:
   firebase_storage: ^10.1.0
   flutter:
     sdk: flutter
-  flutter_local_notifications: ^9.1.1
-  # font_awesome_flutter: ^9.2.0
+  font_awesome_flutter: ^9.2.0
   get: 
   image_picker: ^0.8.4+4
 
 dev_dependencies:
-  # flutter_launcher_icons: ^0.9.2
+  flutter_launcher_icons: ^0.9.2
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
 
-# flutter_icons:
-#   android: "launcher_icon"
-#   ios: true
-#   image_path: "assets/icon/icon.png"
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
 
 flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - "assets/icon/icon.png"
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see
